@@ -1,4 +1,16 @@
 body {
-    background-color: gray;
-    color: white;
+    background-color: #ffec8d;
+    color: black;
+}
+
+#container {
+  position: relative;
+}
+
+#top-left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75px; /* Adjust the width as desired */
+  height: auto; /* Maintain aspect ratio */
 }
